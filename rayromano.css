@@ -1,0 +1,441 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav img{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 175px;
+    padding-left: 5%;
+}
+
+nav{
+    /* border: 2px solid blue; */
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div{
+    /* border: 2px solid orange; */
+    width: 42%;
+    padding-right: 6%;
+}
+
+nav div>ul{
+     /* border: 2px solid green; */
+    font-size: .85em;
+   font-family: proxima-nova;
+   color: #1a1a1a;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+#l1{
+    color: #c2c2c2;
+}
+#l1:hover{
+    cursor: pointer;
+    color: rgb(96, 96, 96);
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: rgb(96, 96, 96);
+}
+
+#sec1{
+     height: 500px;  
+    background: url(./Assets/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg) center 58% / 100% no-repeat;
+     background-attachment: fixed;
+
+}
+
+#sec1 h1{
+    /* border: 2px solid; */
+    background :  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+    height: 60px;
+    width: 47%;
+    padding: 1% 0% 0% 1%;
+        font-family: "Source Sans Pro", sans-serif;
+    /* font-family: futura-pt; */
+    font-size: 2.5em;
+    font-weight: 300;
+    /* letter-spacing: 7px; */
+    letter-spacing: 4px;
+    line-height: 1em;
+    text-decoration: none;
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+    left: 5%;
+    top: 19%;
+}
+
+#sec1 p{
+    /* border: 2px solid; */
+    background :  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 1));
+    width: 60%;
+    padding: 1%;
+     font-size: 1.2em;
+    max-width: 100%;
+    letter-spacing: 1px;
+    position: relative;
+    left: 5%;
+    top: 25%; 
+}
+
+#sec2 {
+    /* border: 2px solid red; */
+    margin-left: 18%;
+    margin-top: 6%;
+    margin-right: 17%;
+     margin-bottom: 5%; 
+    display: flex;
+    align-items: center;
+}
+
+#sec2 h1{
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+     letter-spacing: 2px; 
+    text-decoration: none;
+}
+
+#sec2 p{
+    text-align: justify;
+    color: #363636;
+    font-family: "PT Serif", Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.4em;
+}
+
+#sec3{
+     height: 740px;  
+    background: url(./Assets/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg) center 49% / 100% no-repeat;
+     background-attachment: fixed;
+}
+
+#sec3 h1{
+    /* border: 2px solid; */
+    background :  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+    height: 100px;
+    width: 60%;
+    padding: 1% 0% 0% 1%;
+        font-family: "Source Sans Pro", sans-serif;
+    /* font-family: futura-pt; */
+    font-size: 2.3em;
+    font-weight: 300;
+     letter-spacing: 7px; 
+    text-transform: uppercase;
+    line-height: 1em;
+    text-decoration: none;
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+
+#sec4 {
+    /* border: 2px solid red; */
+    margin-left: 18%;
+    margin-top: 6%;
+    margin-right: 17%;
+     margin-bottom: 5%; 
+    display: flex;
+    align-items: center;
+}
+
+#sec4 h1{
+    /* font-family: proxima-nova; */
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: normal;
+     letter-spacing: 1px; 
+    text-decoration: none;
+}
+
+#sec4 p{
+    text-align: justify;
+    color: #363636;
+    font-family: "PT Serif", Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.4em;
+}
+
+#sec5{
+     height: 705px;  
+    background: url(./Assets/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg) center 49% / 100% no-repeat;
+     background-attachment: fixed;
+}
+
+#sec5 h1{
+    /* border: 2px solid; */
+    background :  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+    height: 65px;
+    width: 17%;
+    padding: 1% 0% 0% 1%;
+        font-family: "Source Sans Pro", sans-serif;
+    /* font-family: futura-pt; */
+    font-size: 2.3em;
+    font-weight: 300;
+     letter-spacing: 7px; 
+    text-transform: uppercase;
+    line-height: 1em;
+    text-decoration: none;
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+    left: 4.7%;
+    top: 14%;
+}
+
+#sec6 {
+    /* border: 2px solid red; */
+    margin-left: 18%;
+    margin-top: 6%;
+    margin-right: 17%;
+     margin-bottom: 5%; 
+    display: flex;
+    align-items: center;
+}
+
+#sec6 h1{
+    /* font-family: proxima-nova; */
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: normal;
+     letter-spacing: 1px; 
+    text-decoration: none;
+}
+
+#sec6 p{
+    text-align: justify;
+    color: #363636;
+    font-family: "PT Serif", Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.4em;
+}
+
+#sec7{
+     height: 705px;  
+    background: url(./Assets/1040.jpeg) center 49% / 100% no-repeat;
+     background-attachment: fixed;
+}
+
+#sec7 h1{
+    /* border: 2px solid; */
+    background :  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.779));
+    height: 65px;
+    width: 25%;
+    padding: 1% 0% 0% 1%;
+        font-family: "Source Sans Pro", sans-serif;
+    /* font-family: futura-pt; */
+    font-size: 2.3em;
+    font-weight: 300;
+     letter-spacing: 7px; 
+    text-transform: uppercase;
+    line-height: 1em;
+    text-decoration: none;
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+    left: 4.7%;
+    top: 14%;
+}
+
+#sec8 {
+    /* border: 2px solid red; */
+    margin-left: 18%;
+    margin-top: 6%;
+    margin-right: 17%;
+     margin-bottom: 5%; 
+    display: flex;
+    align-items: center;
+}
+
+#sec8 h1{
+    /* font-family: proxima-nova; */
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: normal;
+     letter-spacing: 1px; 
+    text-decoration: none;
+}
+
+#sec8 p{
+    text-align: justify;
+    color: #363636;
+    font-family: "PT Serif", Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 1.4em;
+}
+
+#sec9{
+     height: 705px;  
+    background: url(./Assets/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg) center 49% / 100% no-repeat;
+     background-attachment: fixed;
+}
+
+#sec9 h1{
+    /* border: 2px solid; */
+    background :  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.779));
+    height: 65px;
+    width: 16%;
+    padding: 1% 0% 0% 1%;
+        font-family: "Source Sans Pro", sans-serif;
+    /* font-family: futura-pt; */
+    font-size: 2.3em;
+    font-weight: 300;
+     letter-spacing: 7px; 
+    text-transform: uppercase;
+    line-height: 1em;
+    text-decoration: none;
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+    left: 4.7%;
+    top: 14%;
+}
+
+#sec10 {
+    margin-left: 18%;
+    margin-top: 7%;
+    margin-right: 18%;
+    /* border: 2px solid green; */
+    height: 930px;
+    display: grid;
+    grid-template-columns: repeat(3,335px);
+    grid-template-rows: repeat(3,280px);
+}
+
+#sec10 div{
+    /* border: 2px solid; */
+    height: 210px;
+    width: 300px;
+}
+
+#sec10 div>img{
+    height: 210px;
+    width: 300px;
+    box-sizing: border-box;
+
+}
+
+#sec10 p{
+    padding-top: 2%;
+    font-size: 12px;
+    line-height: 1.68em;
+
+}
+
+#sec10 img:hover{
+    cursor: pointer;
+}
+
+#sec11{
+     /* border: 2px solid blue; */
+    height: 130px;
+     background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sec11 #div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    font-size: 13px;
+    margin-left: -25px;
+    top: -25px;
+    padding-bottom: 1px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#sec11 span > i {
+    font-size: 19px;
+}
+
+#sec11 #div1{
+    cursor: pointer;
+}
+
+#div2{
+    /* border: 2px solid red; */
+     background-color: black;
+     margin-left: 13%; 
+     margin-top: 2%;
+    width: 220px;
+    height: 42px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+#div2 article{
+    /* border: 2px solid green; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+#div2 article:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+#div3 ul{
+    /* border: 2px solid purple; */
+    background-color: black;
+    color: white;
+    margin-top: 4%;
+    width: 700px;
+    height: 42px;
+    margin-left: -20%;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+#div3 ul>li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#sec12{
+    height: 70px;
+}
